@@ -1,0 +1,6 @@
+{
+  "name": "tp",
+  "dependencies": {
+    "yarn": "^1.22.5"
+  }
+}
