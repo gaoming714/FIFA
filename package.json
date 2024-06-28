@@ -1,26 +1,21 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
-  "private": true,
+  "name": "my-vuepress-site",
+  "version": "0.0.1",
+  "description": "A VuePress project",
+  "license": "MIT",
+  "type": "module",
   "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server"
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "docs:dev": "vuepress dev docs",
+    "docs:update-package": "npx vp-update"
   },
-  "hexo": {
-    "version": "5.3.0"
-  },
-  "dependencies": {
-    "hexo": "^5.0.0",
-    "hexo-generator-archive": "^1.0.0",
-    "hexo-generator-category": "^1.0.0",
-    "hexo-generator-index": "^2.0.0",
-    "hexo-generator-tag": "^1.0.0",
-    "hexo-renderer-ejs": "^1.0.0",
-    "hexo-renderer-marked": "^3.0.0",
-    "hexo-renderer-stylus": "^2.0.0",
-    "hexo-server": "^2.0.0",
-    "hexo-theme-landscape": "^0.0.3"
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.7",
+    "@vuepress/plugin-docsearch": "^2.0.0-rc.37",
+    "@vuepress/plugin-photo-swipe": "^2.0.0-rc.37",
+    "@vuepress/theme-default": "^2.0.0-rc.11",
+    "vue": "^3.4.0",
+    "vuepress": "^2.0.0-rc.7"
   }
 }

@@ -1,9 +1,8 @@
-.DS_Store
-Thumbs.db
-db.json
-*.log
+# VuePress default temp directory
+.vuepress/.temp
+# VuePress default cache directory
+.vuepress/.cache
+# VuePress default build output directory
+.vuepress/dist
+
 node_modules/
-public/
-.deploy*/
-yarn.lock
-package-lock.json
