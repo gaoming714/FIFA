@@ -1,2 +1,0 @@
-- [返回上一级 [delta]](/delta)
-- [ubuntu-source](/delta/ubuntu-source/)

@@ -1,2 +1,0 @@
-- [返回上一级 [delta]](/delta)
-- [ohmyzsh](/delta/ohmyzsh/)

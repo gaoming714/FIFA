@@ -1,6 +1,0 @@
-# Mysql
-
-> [!NOTE]  
-> To Do
-
----

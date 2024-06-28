@@ -1,5 +1,0 @@
-- [返回上一级 [msys64_build]](/delta/msys64_build)
-- [root](/delta/msys64_build/root/)
-  - [src](/delta/msys64_build/root/src/)
-    - [.vim](/delta/msys64_build/root/src/.vim/)
-      - [autoload](/delta/msys64_build/root/src/.vim/autoload/)

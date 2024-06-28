@@ -1,3 +1,0 @@
-- [返回上一级 [delta]](/delta)
-- [nginx](/delta/nginx/)
-  - [vhosts.d](/delta/nginx/vhosts.d/)
