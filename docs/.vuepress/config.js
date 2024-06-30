@@ -3,7 +3,7 @@ import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
-    base: '/FIFA/',
+    base: '/FIFA/gh-pages',
   lang: 'en-US',
 
   title: 'VuePress',
