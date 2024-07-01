@@ -1,0 +1,10 @@
+[FIFA]
+
+path = "D:\\bin\\delta\\nsq\\FIFA"
+secret = ""
+
+
+[b]
+
+path = "/abc"
+secret = ""
