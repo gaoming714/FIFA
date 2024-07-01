@@ -52,11 +52,13 @@ def main(id):
 
 
 def pull(repo_path):
-    logger.info(f"Pulling {id}")
+    logger.info(f"Pulling {repo_path}")
     if not repo_path.exists():
+        logger.info(f"No Repo {repo_path}")
         return
     git_flag = repo_path / ".git"
     if not git_flag.is_dir():
+        logger.info(f"No Folder .git {repo_path}")
         return
     cmd = "cd {} && git fetch && git rebase".format(repo_path)
     res = lumos(cmd, warning=True)
