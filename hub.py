@@ -27,7 +27,7 @@ def main(id):
     repo = TASK.get(id, None)
     if not repo:
         return "No Repo local.", 400
-    path = repo["path"]
+    path = Path(repo["path"])
     secret = repo["secret"]
     signature = request.headers.get('X-Hub-Signature-256', '')
     expected_signature = 'sha256=' + hmac.new(
@@ -36,6 +36,8 @@ def main(id):
         digestmod=hashlib.sha256
     ).hexdigest()
     print(path, secret)
+    print(signature)
+    print(expected_signature)
     # 验证签名
     if hmac.compare_digest(signature, expected_signature):
         # 签名验证成功，执行你的代码，比如 pull 操作
