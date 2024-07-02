@@ -7,7 +7,6 @@
 ## vim Plug
 
 > [!TIP]
-> [VIM folder](/delta/vim/) Copy these to ~/
 > open vim and run `:PlugInstall`
 
 ### Manual Steps
